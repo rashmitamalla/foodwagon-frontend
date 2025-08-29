@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Custom CSS */
+.my-custom-button {
+  background-color: #4f46e5;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.text-special {
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+@layer components {
+  .nav-container {
+    @apply flex flex-row items-center;
+    @apply flex flex-col gap-4 p-4; /* default: mobile */
+    @apply md:flex-row md:justify-between; /* from 768px (tablet) */
+    @apply lg:px-16; /* from 1024px (laptop) */
+    @apply xl:px-24; /* from 1280px (desktop) */
+    @apply 2xl:px-56;
+  }
+
+  .nav-sub-conatiner {
+    @apply flex flex-row justify-center items-center;
+  }
+
+  .header {
+    @apply min-h-1/2;
+  }
+}
