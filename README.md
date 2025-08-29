@@ -1,12 +1,50 @@
-# React + Vite
+# FoodWagon Frontend(using vite + react)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the **FoodWagon Food Delivery Landing Page**, built with **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+The design and layout were inspired by the **FoodWagon Landing Template** created by **ThemeWagon** on [Figma Community](https://www.figma.com/community/file/1227-yKgRR3AlZPpP0BG1R7c4wl/FoodWagon-Food-Delivery-Landing-Template-by-ThemeWagon--Community-?node-id=401-1227&t=GiCFbZUOA6f1jyrg-0).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fully responsive design (desktop, tablet, mobile)  
+- Tailwind CSS for rapid UI development  
+- Custom components and utilities for buttons, containers, and typography  
+- Uses React functional components  
+
+---
+
+## Project Structure
+
+foodwagon-frontend/
+├─ public/
+│ └─ assets/ # Images, logos, icons
+├─ src/
+│ ├─ components/ # React components
+│ ├─ index.css # Tailwind + custom CSS
+│ └─ main.jsx # Entry point
+├─ package.json
+└─ README.md
+
+
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/rashmitamalla/foodwagon-frontend.git
+
+2. Navigate to the project directory:
+
+cd foodwagon-frontend
+
+3.Install dependencies:
+
+npm install
+4. Start the development server:
+
+npm run dev
+The project should now be running at http://localhost:5173 (Vite default).
+
+Credits
+Design inspired by ThemeWagon: Figma Community Link
